@@ -29,6 +29,7 @@ public class ProgBasics : MonoBehaviour {
         Debug.Log("Gleichheits Operatoren: != " + (5 != 9));
 
 
+        Debug.Log("Logische Operatoren: & " + (true && true));
 
     }
 }
