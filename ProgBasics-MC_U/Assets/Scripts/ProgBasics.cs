@@ -26,6 +26,8 @@ public class ProgBasics : MonoBehaviour {
 
         Debug.Log("Relationale Operatorenn: > " + (5 > 9));
 
+        Debug.Log("Gleichheits Operatoren: != " + (5 != 9));
+
 
 
     }
