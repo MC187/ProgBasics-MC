@@ -23,5 +23,10 @@ public class ProgBasics : MonoBehaviour {
 
 
         Debug.Log("Additive Operatoren: + " + (5 + 5));
+
+        Debug.Log("Relationale Operatorenn: > " + (5 > 9));
+
+
+
     }
 }
