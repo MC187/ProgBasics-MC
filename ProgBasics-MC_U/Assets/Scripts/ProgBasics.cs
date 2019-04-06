@@ -22,6 +22,6 @@ public class ProgBasics : MonoBehaviour {
         //Debug.Log("Multiplikative Operatoren:  / " + (3 / 4));
 
 
-
+        Debug.Log("Additive Operatoren: + " + (5 + 5));
     }
 }
