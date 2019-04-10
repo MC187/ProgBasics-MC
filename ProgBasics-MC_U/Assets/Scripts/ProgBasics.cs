@@ -5,14 +5,25 @@ using UnityEngine;
 public class ProgBasics : MonoBehaviour 
 {
 
+    public int test1;
+    public float test2;
+    public string test3;
+
+
 	// Use this for initialization
 	void Start () 
     {
 
+        test1 = 1;
+        Debug.Log("test 1 in Start" + test1);
 
         Operators();
         AddNumbers(1,2);
         MultNumbers(2, 7, 2, 2);
+
+        Debug.Log(MyText("MC"));
+        string drama = MyText("MC");
+        Debug.Log("neu" + drama);
 
 
     }
@@ -69,6 +80,9 @@ public class ProgBasics : MonoBehaviour
     {
         int c = a + b;
         Debug.Log("add numbers " + c);
+
+        test1 = 3;
+        Debug.Log("test 1 in AddNumbers" + test1);
     }
 
 
@@ -80,6 +94,24 @@ public class ProgBasics : MonoBehaviour
         Debug.Log(e);
     }
 
+
+
+    public void Combine()
+    {
+        MultNumbers(4, 3, 2, 1);
+        Operators();
+    
+
+
+    }
+
+
+    //
+
+    public string MyText(string myName)
+    {
+        return "Drama" + " " + myName;
+    }
 
 
 
