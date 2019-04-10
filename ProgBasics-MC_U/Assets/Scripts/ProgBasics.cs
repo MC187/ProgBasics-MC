@@ -12,7 +12,7 @@ public class ProgBasics : MonoBehaviour
 
         Operators();
         AddNumbers(1,2);
-        MultNumbers(2, 7);
+        MultNumbers(2, 7, 2, 2);
 
 
     }
@@ -74,10 +74,10 @@ public class ProgBasics : MonoBehaviour
 
 
 
-    public void MultNumbers (float a, float b)
+    public void MultNumbers (float a, float b, float c, float d)
     {
-        float d = a * b;
-        Debug.Log("mult numbers " + d);
+        float e = a * b * c * d;
+        Debug.Log(e);
     }
 
 
