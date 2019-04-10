@@ -11,7 +11,8 @@ public class ProgBasics : MonoBehaviour
 
 
         Operators();
-
+        AddNumbers(1,2);
+        MultNumbers(2, 7);
 
 
     }
@@ -39,25 +40,45 @@ public class ProgBasics : MonoBehaviour
     }
 
 
-    // Methoden Deklaration
+
     public void XY()
     {
-        Debug.Log()
+        // Methoden Deklaration
 
     }
 
 
+    //
     public void SWAG()
     {
-        // Do Something
+        Debug.Log("Multiplikative Operatoren: * " + (3 * 4));
     }
 
+
+    //
     public void Methode()
     {
-        // Methode do something
+        Debug.Log("Gleichheits Operatoren: != " + (5 != 9));
+        Debug.Log("Logische Operatoren: & " + (true && true));
     }
 
 
+
+    //
+    public void AddNumbers(int a, int b)
+    {
+        int c = a + b;
+        Debug.Log("add numbers " + c);
+    }
+
+
+
+
+    public void MultNumbers (float a, float b)
+    {
+        float d = a * b;
+        Debug.Log("mult numbers " + d);
+    }
 
 
 
