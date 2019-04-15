@@ -4,28 +4,28 @@
 - ##### Progress: 100%
  
 
-- #### Development Plattform: 
+ #### Development Plattform: 
 MacOs Mojave 10.14.3, Unity 2018.2.14f, Visual Studio 7.7.4 , Scriping Runtime Version: .Net 3.5 Equivalent , API Compatibility Level: .Net 2.0 Subset
 
-- #### Game Description: 
+ #### Game Description: 
 ProgBasics Übung
 
-- #### Target Plattform:
+ #### Target Plattform:
 Standalone, WebGL, Mobile incl. reference resolution
 
-- #### Screenshots:
+ #### Screenshots:
 
 <div>
 <img src="./Screenshots/ScreenShot_Test.png" width="250">
 </div>
 
-- #### Game Controlls: 
+ #### Game Controlls: 
 arrow keys
 
-- #### Third Party Material: 
+ #### Third Party Material: 
 if used Fonts, Sounds, Music, Graphics, Materials, Code etc.
 
-- #### Lessons Learned:
+ #### Lessons Learned:
 lorem ipsum 
 
 
