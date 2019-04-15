@@ -16,7 +16,7 @@ Standalone, WebGL, Mobile incl. reference resolution
  #### Screenshots:
 
 <div>
-<img src="./Screenshots/ScreenShot_Test.png" width="250">
+<img src="./Screenshots/How2ReadmeMarkdown.png" width="250">
 </div>
 
  #### Game Controlls: 
