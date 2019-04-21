@@ -30,7 +30,9 @@ public class ProgBasics : MonoBehaviour
 
         Debug.Log(StadtLand("Salzburg", "Österreich"));
 
-        Debug.Log(MultNumbSc("zahl1" + "zahl2"));
+        AddZahl(2, 5);
+
+
     }
 
 
@@ -113,19 +115,20 @@ public class ProgBasics : MonoBehaviour
 
     // Variabeln zuweisen Hausübung min 10 / 
 
-    string old = "hallo";  // geht nicht weil int kein string
+    string begrususng = "hallo";  // geht nicht weil int kein string
          
 
-    public float MultNumbSc()
-    {
-        float zahl1;
-        zahl1 = 93.5f;
+    //public float MultNumbSc()
+    //{
+    //    float zahl1;
+    //    zahl1 = 93.5f;
 
-        float zahl2;
-        zahl2 = 93.5f;
+    //    float zahl2;
+    //    zahl2 = 93.5f;
 
-         
-    }
+    //    Debug.Log(MultNumbSc("zahl1" + "zahl2"));
+
+    //}
 
 
     public string StadtLand(string stadt, string land)
@@ -139,6 +142,13 @@ public class ProgBasics : MonoBehaviour
     {
         Debug.Log("mein Name: " + vorname + " " + nachname);
 
+    }
+
+
+    public void AddZahl(int q , int w )
+    {
+        int r = q + w;
+        Debug.Log(r);
     }
 
 
