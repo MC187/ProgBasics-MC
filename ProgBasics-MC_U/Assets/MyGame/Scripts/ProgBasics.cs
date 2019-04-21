@@ -152,6 +152,13 @@ public class ProgBasics : MonoBehaviour
     }
 
 
+    //public bool Obst(bool obst,bool gemuese)
+    //{
+    //    obst = true;
+    //    gemuese = false;
+
+
+    //}
 
 
 

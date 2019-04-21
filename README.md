@@ -20,7 +20,7 @@ Standalone, WebGL, Mobile incl. reference resolution
 #### Screenshots:
 
 <div>
-<img src="./Screenshots/ScreenShot_Test.png" width="250">
+<img src="./Screenshots/MTIN_HUE_Methods_Var.png" width="250">
 </div>
 
 
