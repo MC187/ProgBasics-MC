@@ -1,9 +1,9 @@
 # ProgBasics-MC
 
- ##### Status: Projekt in Work 
- ##### Progress: 100%
+ ##### Status: Projekt in Work  
+ ##### Progress: 80% (some things do not work)
 # 
-#
+
 ### Development Plattform: 
 - MacOs Mojave 10.14.3
 - Unity 2018.2.14f
@@ -22,6 +22,7 @@ Standalone, WebGL, Mobile incl. reference resolution
 <div>
 <img src="./Screenshots/MTIN_HUE_Methods_Var.png" width="250">
 </div>
+-Screenshot aus Progbasics Methods and Variables
 
 
 
