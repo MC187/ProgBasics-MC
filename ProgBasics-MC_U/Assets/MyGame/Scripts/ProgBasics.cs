@@ -8,10 +8,11 @@ public class ProgBasics : MonoBehaviour
     public int test1;
     public float test2;
     public string test3;
+    public string vorname = "Marc";
+    public string nachname = "Leitner";
 
-
-	// Use this for initialization
-	void Start () 
+    // Use this for initialization
+    void Start () 
     {
 
         test1 = 1;
@@ -26,9 +27,15 @@ public class ProgBasics : MonoBehaviour
         Debug.Log("neu" + drama);
 
 
+
+        Debug.Log(StadtLand("Salzburg", "Österreich"));
+
+        Debug.Log(MultNumbSc("zahl1" + "zahl2"));
     }
 
 
+
+    //Operatoren HÜ 
 
     public void Operators()
     {
@@ -52,6 +59,7 @@ public class ProgBasics : MonoBehaviour
 
 
 
+    //Void methode aufrufen
     public void XY()
     {
         // Methoden Deklaration
@@ -59,14 +67,12 @@ public class ProgBasics : MonoBehaviour
     }
 
 
-    //
     public void SWAG()
     {
         Debug.Log("Multiplikative Operatoren: * " + (3 * 4));
     }
 
 
-    //
     public void Methode()
     {
         Debug.Log("Gleichheits Operatoren: != " + (5 != 9));
@@ -74,8 +80,6 @@ public class ProgBasics : MonoBehaviour
     }
 
 
-
-    //
     public void AddNumbers(int a, int b)
     {
         int c = a + b;
@@ -86,8 +90,6 @@ public class ProgBasics : MonoBehaviour
     }
 
 
-
-
     public void MultNumbers (float a, float b, float c, float d)
     {
         float e = a * b * c * d;
@@ -95,23 +97,60 @@ public class ProgBasics : MonoBehaviour
     }
 
 
-
     public void Combine()
     {
         MultNumbers(4, 3, 2, 1);
         Operators();
-    
-
-
     }
 
-
-    //
 
     public string MyText(string myName)
     {
         return "Drama" + " " + myName;
     }
+
+
+
+    // Variabeln zuweisen Hausübung min 10 / 
+
+    string old = "hallo";  // geht nicht weil int kein string
+         
+
+    public float MultNumbSc()
+    {
+        float zahl1;
+        zahl1 = 93.5f;
+
+        float zahl2;
+        zahl2 = 93.5f;
+
+         
+    }
+
+
+    public string StadtLand(string stadt, string land)
+    {
+        return "Heimat: " + stadt + ", " + land;
+    }
+
+
+
+    public void meinName()
+    {
+        Debug.Log("mein Name: " + vorname + " " + nachname);
+
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,32 +1,39 @@
 # ProgBasics-MC
 
-- ##### Status: Projekt in Work 
-- ##### Progress: 100%
- 
+ ##### Status: Projekt in Work 
+ ##### Progress: 100%
+# 
+#
+### Development Plattform: 
+- MacOs Mojave 10.14.3
+- Unity 2018.2.14f
+- Visual Studio 7.7.4
+- Scriping Runtime Version: .Net 3.5 Equivalent
+- API Compatibility Level: .Net 2.0 Subset
 
- #### Development Plattform: 
-MacOs Mojave 10.14.3, Unity 2018.2.14f, Visual Studio 7.7.4 , Scriping Runtime Version: .Net 3.5 Equivalent , API Compatibility Level: .Net 2.0 Subset
+### Description: 
+ ProgBasics Übung 
 
- #### Game Description: 
-ProgBasics Übung
-
- #### Target Plattform:
+### Target Plattform:
 Standalone, WebGL, Mobile incl. reference resolution
 
- #### Screenshots:
+#### Screenshots:
 
 <div>
-<img src="./Screenshots/How2ReadmeMarkdown.png" width="250">
+<img src="./Screenshots/ScreenShot_Test.png" width="250">
 </div>
 
- #### Game Controlls: 
-arrow keys
 
- #### Third Party Material: 
+
+### Third Party Material: 
 if used Fonts, Sounds, Music, Graphics, Materials, Code etc.
 
- #### Lessons Learned:
-lorem ipsum 
+### Lessons Learned:
+Operatoren, Methode, Variablen 
 
 
-> Copyright by Marc Leitner aka MC Scurry 
+
+> Copyright by Marc Leitner aka MC Scurry  
+
+
+
